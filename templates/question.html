@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Stackoverflow parser</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/question.css') }}">
+	<!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"> -->
+</head>
+<body>
+		{% for q_item in get_flashed_messages() %}
+		{{ q_item }}
+		{% endfor %}
+</body>
+</html>
