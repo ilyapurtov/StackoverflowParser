@@ -1,3 +1,2 @@
 # StackoverflowParser
-This is a simple stackoverflow parser (BETA VERSION)
-My website: http://yours.ilpur.ml
+This is a simple stackoverflow parser
